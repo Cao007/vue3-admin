@@ -17,22 +17,22 @@ module.exports = {
 			2,
 			'always',
 			[
-				'feat',
-				'fix',
-				'perf',
-				'style',
-				'docs',
-				'test',
-				'refactor',
-				'build',
-				'ci',
-				'chore',
-				'revert',
-				'wip',
-				'workflow',
-				'types',
-				'release',
-				'temp'
+				'feat', // 新功能
+				'fix', // 修复
+				'perf', // 性能优化
+				'style', // 样式
+				'docs', // 文档
+				'test', // 测试
+				'refactor', // 重构
+				'build', // 构建
+				'ci', // 持续集成
+				'chore', // 构建/依赖/工具
+				'revert', // 回滚
+				'wip', // 工作中
+				'workflow', // 工作流
+				'types', // 类型定义
+				'release', // 发布
+				'temp' // 临时
 			]
 		]
 	}

@@ -14,9 +14,9 @@ module.exports = {
 	],
 	overrides: [],
 	/* 
-     这里一定要配置对 先使用vue-eslint-parser 再使用@typescript-eslint/parser
-     先解析 <template> 标签中的内容 然后再解析 vue <script> 标签中的 TS 代码
-     */
+		 这里一定要配置对 先使用vue-eslint-parser 再使用@typescript-eslint/parser
+		 先解析 <template> 标签中的内容 然后再解析 vue <script> 标签中的 TS 代码
+		 */
 	// 选择使用的解析器
 	parser: 'vue-eslint-parser',
 	// 解析器的详细配置
@@ -31,5 +31,7 @@ module.exports = {
 	// 使用的插件
 	plugins: ['vue', '@typescript-eslint'],
 	// 自定义规则
-	rules: {}
+	rules: {
+		'@typescript-eslint/no-explicit-any': 'warn' // any 类型警告
+	}
 };
