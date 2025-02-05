@@ -32,6 +32,7 @@ module.exports = {
 	plugins: ['vue', '@typescript-eslint'],
 	// 自定义规则
 	rules: {
-		'@typescript-eslint/no-explicit-any': 'warn' // any 类型警告
+		'@typescript-eslint/no-explicit-any': 'warn', // any 类型警告
+		'vue/multi-word-component-names': 'off' // 组件名称必须为多单词
 	}
 };
